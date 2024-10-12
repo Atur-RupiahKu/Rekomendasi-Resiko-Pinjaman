@@ -53,7 +53,7 @@ def changeEducationLevel(EducationLevel):
     elif EducationLevel=="Magister":
         return "Master"
     else:
-        return "Doctoral"
+        return "Doctorate"
 
 def changeEmploymentStatus(EmploymentStatus):
     if EmploymentStatus=="Bekerja":
