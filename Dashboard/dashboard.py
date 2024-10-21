@@ -14,7 +14,7 @@ class MultiplyByFactor(BaseEstimator, TransformerMixin):
         return X * self.factor
 
 
-pipeline = joblib.load('Credit Risk.pkl')
+pipeline = joblib.load('Model/Credit Risk.pkl')
 
 st.header("Credit Risk")
 st.markdown("---")
